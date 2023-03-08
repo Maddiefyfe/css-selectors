@@ -52,10 +52,10 @@ main > section h2 ~ p strong {
     color: purple;
 }
 
-section ul li:nth-child(2,4,6,8,10,12,14,16,18,20) {
-    
+section li:nth-child(2) {
+    color: purple;
 }
 
-#section-5 > #div-2 {
-    color: #fe0012;
+dl div:last-child {
+    color: #ccc;
 }
